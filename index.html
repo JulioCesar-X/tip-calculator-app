@@ -24,31 +24,65 @@
     p{
       display: inline;
       width: fit-content;
+      color: lightseagreen;
+      margin-left: 8%;
     }
     i{
       display: block;
       width: fit-content;
     }
+    section{
+      display: inline-flexbox;
+      align-items:center;
+      justify-content: center;
+    }
     #main{
       display: inline-flex; 
       padding: 2%;
       margin-top: 5%;
+      border: 1px solid black;
+      border-radius: 5%;
        }
     #input-data{
       display: block; 
    
     }
     #output-data{
-      display: block; 
+      display: block;
+      background-color: darkslategrey;
+      border: 2px solid black;
+      border-radius: 5%;
    
     }
-    label{
+    #reset{
       display: block;
+      color: darkslategrey;
+      background-color: lightseagreen;
+     
+      width: 80%;
+    }
+    label{
+      display: inline-block;
       width: fit-content;
     }
     .content{
       padding: 5%;
     }
+    .tip-value{
+      background-color: darkslategrey;
+    }
+    .tip-value-d{
+
+      color: darkslategray;
+      background-color: lightsteelblue;
+    }
+    
+    button{
+      font-family:Georgia,Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: bolder;
+      color: azure;
+    }
+
     
   </style>
 </head>
@@ -71,7 +105,7 @@
         <button class="tip-value">15%</button>
         <button class="tip-value">25%</button>
         <button class="tip-value">50%</button>
-        <button class="tip-value">Custom</button>
+        <button class="tip-value-d">Custom</button>
       </section>
       <section class="content">
         <label for="number-people">Number of People:</label>
