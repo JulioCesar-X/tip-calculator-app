@@ -1,0 +1,12 @@
+{
+  "name": "tip-calculator-app",
+  "version": "1.0.0",
+  "description": "This challenge is to build out this tip calculator app and get it looking as close to the design as possible",
+  "main": "/src/script.js",
+  "scripts": {
+    "start": "node script.js"
+  },
+  "author": "Julio Cesar",
+  "license": "MIT",
+  "keywords": []
+}
